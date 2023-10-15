@@ -1,0 +1,27 @@
+Tuesday pm group 27
+
+Documentation
+
+Problem statement: 1.0/1.0
+Code linking explanation: 1.0/1.0
+Read function explanation: 1.0/1.0
+
+Code solution
+
+Code chain: 1.5/1.5
+Read output: 1.5/1.5
+
+Code clarity
+Formatting: 1.0/1.0
+Read statement clarity: 1.0/1.0
+
+Testing
+Run as at least two accounts: 0.5/0.5
+Run at least two commands: 0.0/0.5 
+Input: 0.5/0.5
+Output difference description: 0.5/0.5
+
+
+Overall: 9.5/10.0
+Comments: 
+Good documentation. Missing running with a second command.
