@@ -1,0 +1,135 @@
+Script started on 2023-10-16 19:27:00-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="165" LINES="19"]
+]0;20wyvs@elec377-tues-pm-27: ~/elec377-tues-pm-27/lab2[01;32m20wyvs@elec377-tues-pm-27[00m:[01;34m~/elec377-tues-pm-27/lab2[00m$ exit[2Pcdls -a[2Ppwdexitcd lab2[3Pexit./shell
+%> pwd 
+1
+0: pwd
+final: 1: (null)
+/home/20wyvs/elec377-tues-pm-27/lab2 
+%> cd
+1
+0: cd
+final: 1: (null)
+%> ls -a
+2
+0: ls
+1: -a
+final: 2: (null)
+test2.txt .bashrc . .bash_history .bash_logout elec377-tues-pm-27 .wget-hsts .cache .local .. .gitconfig .vscode-server .profile .sudo_as_admin_successful 
+%> ls
+1
+0: ls
+final: 1: (null)
+test2.txt elec377-tues-pm-27 
+%> cd -p  -p  elec-p  377-tues-pm-27
+2
+0: cd
+1: elec377-tues-pm-27
+final: 2: (null)
+%> ls 
+1
+0: ls
+final: 1: (null)
+lab0 lab1 lab2 
+%> ls -a
+2
+0: ls
+1: -a
+final: 2: (null)
+. .gitignore lab0 .git lab1 .. lab2 
+%> cd lab2
+2
+0: cd
+1: lab2
+final: 2: (null)
+%> ls 
+1
+0: ls
+final: 1: (null)
+test1.txt hello.c rot.c Makefile shell.c shell rot hello 
+%> ls -a
+2
+0: ls
+1: -a
+final: 2: (null)
+. test1.txt hello.c rot.c .. Makefile shell.c shell rot hello 
+%> ls dfg
+2
+0: ls
+1: dfg
+final: 2: (null)
+Invalid argument
+%> pwd
+1
+0: pwd
+final: 1: (null)
+/home/20wyvs/elec377-tues-pm-27/lab2 
+%> pwd fodih
+2
+0: pwd
+1: fodih
+final: 2: (null)
+Too many arguments! 
+%>     pwd 
+1
+0: pwd
+final: 1: (null)
+/home/20wyvs/elec377-tues-pm-27/lab2 
+%> woif  isdfuh ls sodfi 
+3
+0: woisdfuh
+1: ls
+2: sodfi
+final: 3: (null)
+No internal or external program found! 
+%>    ls 
+1
+0: ls
+final: 1: (null)
+test1.txt hello.c rot.c Makefile shell.c shell rot hello 
+%> s    ls -a 
+2
+0: ls
+1: -a
+final: 2: (null)
+. test1.txt hello.c rot.c .. Makefile shell.c shell rot hello 
+%> s    ls -a    a
+3
+0: ls
+1: -
+2: a
+final: 3: (null)
+Too many arguments! 
+%> rot
+1
+0: rot
+final: 1: (null)
+The rot consumes 
+%> hello
+1
+0: hello
+final: 1: (null)
+Hello 20wyvs
+%> lolk
+1
+0: lolk
+final: 1: (null)
+No internal or external program found! 
+%> echo 
+1
+0: echo
+final: 1: (null)
+
+%> echo ls
+2
+0: echo
+1: ls
+final: 2: (null)
+ls
+%> exit
+1
+0: exit
+final: 1: (null)
+]0;20wyvs@elec377-tues-pm-27: ~/elec377-tues-pm-27/lab2[01;32m20wyvs@elec377-tues-pm-27[00m:[01;34m~/elec377-tues-pm-27/lab2[00m$ exit
+exit
+
+Script done on 2023-10-16 19:37:41-04:00 [COMMAND_EXIT_CODE="0"]

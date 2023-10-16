@@ -77,7 +77,7 @@ int main() {
 
 
 	// debugging
-	/*
+    /*
     printf("%d\n", nargs);
 	int i;
 	for (i = 0; i < nargs; i++){
