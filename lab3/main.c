@@ -74,25 +74,35 @@ void * producer(void * parm){
         value = atoi(line);
 
         // lock
-        //printf("Producer thread %d obtaining lock for %d: %d\n", prodParm -> threadNum,lineNo, value);
+        printf("Producer thread %d obtaining lock for %d: %d\n", prodParm -> threadNum,lineNo, value);
+        pthread_mutex_lock(&mutex);
 
         //wait if full
-	    //printf("Producer thread %d waiting full\n", prodParm->threadNum);
+        while (numElements == numSlots) {
+        printf("Producer thread %d waiting full\n", prodParm->threadNum);
+        pthread_cond_wait(&full, &mutex);
+        }
 
-        //printf("Producer thread %d adding %d: %d at position %d\n", prodParm -> threadNum,lineNo, value, head);
+        printf("Producer thread %d adding %d: %d at position %d\n", prodParm -> threadNum,lineNo, value, head);
 
         // add value to buffer
+        buffer[head] = value;
+        head = (head + 1) % numSlots; // Circular queue, wraps around if necessary
+        numElements++;
 
         //signal empty
-        //printf("Producer thread %d signaling empty\n", prodParm->threadNum);
+        printf("Producer thread %d signaling empty\n", prodParm->threadNum);
+        pthread_cond_signal(&empty);
 
         // release
-        //printf("Producer thread %d releasing lock\n", prodParm->threadNum);
+        printf("Producer thread %d releasing lock\n", prodParm->threadNum);
+        pthread_mutex_unlock(&mutex);
     }
    
     // decrement the number of running producers
+    numProdRunning--;
     // broadcast signal if we are the last one. 
-   
+    pthread_cond_broadcast(&empty);
     // done. 
     fclose(inFile);
     printf("Exit producer %d\n",prodParm->threadNum);
@@ -126,24 +136,36 @@ void * consumer(void * parm){
         lineNo++;
 
         // lock
-        //printf("Consumer thread %d aquiring lock\n", consParm->threadNum);
+        printf("Consumer thread %d aquiring lock\n", consParm->threadNum);
+        pthread_mutex_lock(&mutex);
 
         //wait if empty and there are producers
-	    //printf("Consumer thread %d waiting on empty\n", consParm->threadNum);
+	    while (numElements == 0 && numProdRunning > 0) {
+            printf("Consumer thread %d waiting on empty\n", consParm->threadNum);
+            pthread_cond_wait(&empty, &mutex);
+        }
 
-	// if the buffer is empty and no producers, then 
-	// release the lock and break the loop
-
+	    // if the buffer is empty and no producers, then 
+	    // release the lock and break the loop
+        if (numProdRunning == 0 && numElements == 0){
+            pthread_mutex_unlock(&mutex);
+            break;
+        }
         // read value from to buffer
-        
-        //signal empty
-        //printf("Consumer thread %d signaling full\n", consParm->threadNum);
+        value = buffer[tail];
+        tail = (tail + 1) % numSlots; // Circular queue, wraps around if necessary
+        numElements--;
+
+        //signal full
+        printf("Consumer thread %d signaling full\n", consParm->threadNum);
+        pthread_cond_signal(&full);
 
         // release
-        //printf("Consumer thread %d releasing lock\n", consParm->threadNum);
+        printf("Consumer thread %d releasing lock\n", consParm->threadNum);
+        pthread_mutex_unlock(&mutex);
 
         // write value to the file
-        //printf("Consumer thread %d pulled %d: %d from position %d\n", consParm -> threadNum, lineNo, value, location);
+        printf("Consumer thread %d pulled %d: %d from position %d\n", consParm -> threadNum, lineNo, value, location);
         fprintf(outFile,"%d\n", value);
     }
 
