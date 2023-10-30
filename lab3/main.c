@@ -122,7 +122,6 @@ void * consumer(void * parm){
     int lineNo = 0;
     int value = 0;
     int location;
-
     printf("Enter consumer %d\n",consParm->threadNum);
 
     FILE * outFile = fopen(consParm->fileName,"w");
@@ -285,3 +284,4 @@ void simulate_interrupt(void){
         sched_yield();
     }
 }
+
