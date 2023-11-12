@@ -1,0 +1,249 @@
+   UID	            USER		Comm 		Group 
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+landscape 
+messagebus 
+syslog 
+systemd-timesync 
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+tss 
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+     1	            root	systemd 	            root 
+     2	            root	kthreadd 	            root 
+     3	            root	rcu_gp 	            root 
+     4	            root	rcu_par_gp 	            root 
+     6	            root	kworker/0:0H-kblockd 	            root 
+     8	            root	mm_percpu_wq 	            root 
+     9	            root	ksoftirqd/0 	            root 
+    10	            root	rcu_sched 	            root 
+    11	            root	migration/0 	            root 
+    12	            root	idle_inject/0 	            root 
+    14	            root	cpuhp/0 	            root 
+    15	            root	kdevtmpfs 	            root 
+    16	            root	netns 	            root 
+    17	            root	rcu_tasks_kthre 	            root 
+    18	            root	kauditd 	            root 
+    19	            root	khungtaskd 	            root 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19jl253 
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+    20	            root	oom_reaper 	            root 
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+    21	            root	writeback 	            root 
+    22	            root	kcompactd0 	            root 
+    23	            root	ksmd 	            root 
+    24	            root	khugepaged 	            root 
+    70	            root	kintegrityd 	            root 
+    71	            root	kblockd 	            root 
+    72	            root	blkcg_punt_bio 	            root 
+    73	            root	tpm_dev_wq 	            root 
+    74	            root	ata_sff 	            root 
+    75	            root	md 	            root 
+    76	            root	edac-poller 	            root 
+    77	            root	devfreq_wq 	            root 
+    78	            root	watchdogd 	            root 
+    80	            root	kswapd0 	            root 
+    81	            root	ecryptfs-kthrea 	            root 
+    83	            root	kthrotld 	            root 
+    84	            root	acpi_thermal_pm 	            root 
+    85	            root	khvcd 	            root 
+    86	            root	scsi_eh_0 	            root 
+    87	            root	scsi_tmf_0 	            root 
+    88	            root	scsi_eh_1 	            root 
+    89	            root	scsi_tmf_1 	            root 
+    91	            root	vfio-irqfd-clea 	            root 
+    93	            root	ipv6_addrconf 	            root 
+   102	            root	kstrp 	            root 
+   105	            root	kworker/u3:0 	            root 
+   118	            root	charger_manager 	            root 
+   152	            root	kworker/0:1H-kblockd 	            root 
+   197	            root	raid5wq 	            root 
+   240	            root	jbd2/vda1-8 	            root 
+   241	            root	ext4-rsv-conver 	            root 
+   276	            root	hwrng 	            root 
+   314	            root	systemd-journal 	            root 
+   337	            root	none 	            root 
+   367	            root	systemd-udevd 	            root 
+   500	            root	kaluad 	            root 
+   501	            root	kmpath_rdacd 	            root 
+   502	            root	kmpathd 	            root 
+   503	            root	kmpath_handlerd 	            root 
+   504	            root	multipathd 	            root 
+   515	            root	loop0 	            root 
+   517	            root	loop1 	            root 
+   518	            root	loop2 	            root 
+   536	 systemd-networksystemd-timesync	                	systemd-timesyn 	systemd-timesync
+   593	 systemd-network   lxd	                	systemd-network 	systemd-network
+   595	 systemd-resolve	systemd-resolve 	systemd-resolve
+   630	            root	accounts-daemon 	            root 
+   633	            root	cron 	            root 
+   635	 systemd-resolvemessagebus	                	dbus-daemon 	  messagebus
+   642	            root	networkd-dispat 	            root 
+   643	            root	polkitd 	            root 
+   645	            root	qemu-ga 	            root 
+   646	systemd-timesyncsyslog	                	rsyslogd 	syslog
+   650	            root	systemd-logind 	            root 
+   652	            root	udisksd 	            root 
+   655	            root	atd 	            root 
+   660	            root	agetty 	            root 
+   663	            root	agetty 	            root 
+   667	            root	agetty 	            root 
+   692	            root	sshd 	            root 
+   698	            root	ModemManager 	            root 
+   717	            root	unattended-upgr 	            root 
+  1006	            root	loop4 	            root 
+ 57353	            root	xfsalloc 	            root 
+ 57356	            root	xfs_mru_cache 	            root 
+110439	            root	loop5 	            root 
+110492	            root	snapd 	            root 
+189243	          20wyvs	systemd 	sysops
+189249	          20wyvs	(sd-pam) 	sysops
+288957	            root	kworker/0:1-events 	            root 
+390978	            root	kworker/u2:2-events_power_efficient 	            root 
+391159	          20wyvs	sh 	sysops
+391169	          20wyvs	node 	sysops
+391208	          20wyvs	node 	sysops
+391232	          20wyvs	node 	sysops
+397342	            root	kworker/0:2-events 	            root 
+397357	            root	sshd 	            root 
+397440	          20wyvs	sshd 	sysops
+397441	          20wyvs	bash 	sysops
+397494	          20wyvs	node 	sysops
+397505	          20wyvs	node 	sysops
+397526	            root	sshd 	            root 
+397659	          20wyvs	sshd 	sysops
+397660	          20wyvs	bash 	sysops
+397679	          20wyvs	code-1a5daa3a02 	sysops
+397719	            root	kworker/u2:0-events_power_efficient 	            root 
+400671	          20wyvs	bash 	sysops
+400949	          20wyvs	ssh-agent 	sysops
+400951	          20wyvs	ssh-agent 	sysops
+416083	            root	kworker/0:0 	            root 
+416144	          20wyvs	sleep 	sysops
+416166	          20wyvs	sleep 	sysops
+427264	          20wyvs	ps.sh 	sysops
