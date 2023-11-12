@@ -1,0 +1,3 @@
+Error - Cannot use both -comm and -command flags
+
+./ps.sh -command -comm >t11lab.txt
