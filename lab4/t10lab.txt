@@ -1,0 +1,250 @@
+   UID	            USER		Command 		Group 
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+ajg17
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+jas21
+landscape 	/usr/sbin/rsyslogd -n -iNONE 
+messagebus 	/lib/systemd/systemd-resolved 
+syslog 	/lib/systemd/systemd-timesyncd 
+systemd-timesync 	/lib/systemd/systemd-networkd 
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+trd
+tss 	/usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+wht
+     1	            root	            root 	/sbin/init 
+     2	            root	            root 	kthreadd 
+     3	            root	            root 	rcu_gp 
+     4	            root	            root 	rcu_par_gp 
+     6	            root	            root 	kworker/0:0H-kblockd 
+     8	            root	            root 	mm_percpu_wq 
+     9	            root	            root 	ksoftirqd/0 
+    10	            root	            root 	rcu_sched 
+    11	            root	            root 	migration/0 
+    12	            root	            root 	idle_inject/0 
+    14	            root	            root 	cpuhp/0 
+    15	            root	            root 	kdevtmpfs 
+    16	            root	            root 	netns 
+    17	            root	            root 	rcu_tasks_kthre 
+    18	            root	            root 	kauditd 
+    19	            root	            root 	khungtaskd 
+19jl253 	(sd-pam) 
+19jl253 	/bin/bash --init-file /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh 
+19jl253 	/bin/bash ./ps.sh -command -group 
+19jl253 	/home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node --dns-result-order=ipv4first /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false 
+19jl253 	/home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=fileWatcher 
+19jl253 	/home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=fileWatcher 
+19jl253 	/home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/bootstrap-fork --type=ptyHost --logsPath /home/20wyvs/.vscode-server/data/logs/20231111T195355 
+19jl253 	/home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/20wyvs/.vscode-server/.1a5daa3a0231a0fbba4f14db7ec463cf99d7768e.token 
+19jl253 	/home/20wyvs/.vscode-server/code-1a5daa3a0231a0fbba4f14db7ec463cf99d7768e command-shell --cli-data-dir /home/20wyvs/.vscode-server/cli --parent-process-id 397660 --on-port --require-token fdaa3e5ab6d6 
+19jl253 	/lib/systemd/systemd --user 
+19jl253 	bash 
+19jl253 	bash 
+19jl253 	sh /home/20wyvs/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/20wyvs/.vscode-server/.1a5daa3a0231a0fbba4f14db7ec463cf99d7768e.token 
+19jl253 	sleep 180 
+19jl253 	sleep 180 
+19jl253 	ssh-agent -s 
+19jl253 	ssh-agent -s 
+19jl253 	sshd: 20wyvs@notty 
+19jl253 	sshd: 20wyvs@notty 
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+19wsar
+    20	            root	            root 	oom_reaper 
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+20wyvs
+    21	            root	            root 	writeback 
+    22	            root	            root 	kcompactd0 
+    23	            root	            root 	ksmd 
+    24	            root	            root 	khugepaged 
+    70	            root	            root 	kintegrityd 
+    71	            root	            root 	kblockd 
+    72	            root	            root 	blkcg_punt_bio 
+    73	            root	            root 	tpm_dev_wq 
+    74	            root	            root 	ata_sff 
+    75	            root	            root 	md 
+    76	            root	            root 	edac-poller 
+    77	            root	            root 	devfreq_wq 
+    78	            root	            root 	watchdogd 
+    80	            root	            root 	kswapd0 
+    81	            root	            root 	ecryptfs-kthrea 
+    83	            root	            root 	kthrotld 
+    84	            root	            root 	acpi_thermal_pm 
+    85	            root	            root 	khvcd 
+    86	            root	            root 	scsi_eh_0 
+    87	            root	            root 	scsi_tmf_0 
+    88	            root	            root 	scsi_eh_1 
+    89	            root	            root 	scsi_tmf_1 
+    91	            root	            root 	vfio-irqfd-clea 
+    93	            root	            root 	ipv6_addrconf 
+   102	            root	            root 	kstrp 
+   105	            root	            root 	kworker/u3:0 
+   118	            root	            root 	charger_manager 
+   152	            root	            root 	kworker/0:1H-kblockd 
+   197	            root	            root 	raid5wq 
+   240	            root	            root 	jbd2/vda1-8 
+   241	            root	            root 	ext4-rsv-conver 
+   276	            root	            root 	hwrng 
+   314	            root	            root 	/lib/systemd/systemd-journald 
+   337	            root	            root 	bpfilter_umh 
+   367	            root	            root 	/lib/systemd/systemd-udevd 
+   500	            root	            root 	kaluad 
+   501	            root	            root 	kmpath_rdacd 
+   502	            root	            root 	kmpathd 
+   503	            root	            root 	kmpath_handlerd 
+   504	            root	            root 	/sbin/multipathd -d -s 
+   515	            root	            root 	loop0 
+   517	            root	            root 	loop1 
+   518	            root	            root 	loop2 
+   536	 systemd-networksystemd-timesync	                	systemd-timesync
+   593	 systemd-network   lxd	                	systemd-network
+   595	 systemd-resolve	systemd-resolve
+   630	            root	            root 	/usr/lib/accountsservice/accounts-daemon 
+   633	            root	            root 	/usr/sbin/cron -f 
+   635	 systemd-resolvemessagebus	                	  messagebus
+   642	            root	            root 	/usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers 
+   643	            root	            root 	/usr/lib/policykit-1/polkitd --no-debug 
+   645	            root	            root 	/usr/sbin/qemu-ga 
+   646	systemd-timesyncsyslog	                	syslog
+   650	            root	            root 	/lib/systemd/systemd-logind 
+   652	            root	            root 	/usr/lib/udisks2/udisksd 
+   655	            root	            root 	/usr/sbin/atd -f 
+   660	            root	            root 	/sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 hvc0 vt220 
+   663	            root	            root 	/sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220 
+   667	            root	            root 	/sbin/agetty -o -p -- \u --noclear tty1 linux 
+   692	            root	            root 	sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups 
+   698	            root	            root 	/usr/sbin/ModemManager 
+   717	            root	            root 	/usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal 
+  1006	            root	            root 	loop4 
+ 57353	            root	            root 	xfsalloc 
+ 57356	            root	            root 	xfs_mru_cache 
+110439	            root	            root 	loop5 
+110492	            root	            root 	/usr/lib/snapd/snapd 
+189243	          20wyvs	sysops
+189249	          20wyvs	sysops
+288957	            root	            root 	kworker/0:1-events 
+390978	            root	            root 	kworker/u2:2-events_power_efficient 
+391159	          20wyvs	sysops
+391169	          20wyvs	sysops
+391208	          20wyvs	sysops
+391232	          20wyvs	sysops
+397342	            root	            root 	kworker/0:2-events 
+397357	            root	            root 	sshd: 20wyvs [priv] 
+397440	          20wyvs	sysops
+397441	          20wyvs	sysops
+397494	          20wyvs	sysops
+397505	          20wyvs	sysops
+397526	            root	            root 	sshd: 20wyvs [priv] 
+397659	          20wyvs	sysops
+397660	          20wyvs	sysops
+397679	          20wyvs	sysops
+397719	            root	            root 	kworker/u2:0-events_power_efficient 
+400671	          20wyvs	sysops
+400949	          20wyvs	sysops
+400951	          20wyvs	sysops
+416083	            root	            root 	kworker/0:0 
+416144	          20wyvs	sysops
+416166	          20wyvs	sysops
+429927	            root	            root 	kworker/u2:1-events_power_efficient 
+429977	          20wyvs	sysops
