@@ -1,0 +1,14 @@
+Documentation 3/3
+-clear, concise documentation
+    -explicitly desribing the flags would be helpful for your users however
+
+Code Solution 3/3
+-code behaves as expected
+
+Code Clarity 2/2
+-code is clear and legible
+
+Testing 2/2
+-excellent testing documentation
+
+Total 10/10
